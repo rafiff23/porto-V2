@@ -1,0 +1,14 @@
+/* custom-slider.css */
+
+.slick-dots li button:before {
+    display: none;
+  }
+  
+  .slick-dots li .slick-dot {
+    transition: background-color 0.3s ease;
+  }
+  
+  .slick-dots li.slick-active .slick-dot {
+    background-color: white !important;
+  }
+  
