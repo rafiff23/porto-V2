@@ -14,7 +14,7 @@ export default function Contact() {
       id="contact"
       className="contact-section relative z-[0] mt-24 flex min-h-screen w-full flex-col items-center justify-center overflow-x-clip bg-zinc-800 dark:bg-zinc-100"
     >
-      <ContactRounded />
+      {/* <ContactRounded /> */}
       <div className="w-full overflow-hidden px-[5%]">
         <div className="contact-content relative flex min-h-[100svh] w-full flex-col items-center justify-between pt-12">
         {/* <ContactTitle title="FAQs" /> */}
