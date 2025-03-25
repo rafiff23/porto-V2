@@ -5,7 +5,7 @@ import Hero from "@/components/hero/Hero";
 import Nav from "@/components/navbar/Nav";
 import Preload from "@/components/preload/Preload";
 import Projects from "@/components/projects/Projects";
-import FAQ from "@/components/faq/FAQ";
+import FAQ from "@/components/faq/Faq";
 import Contact from "@/components/contact/Contact";
 import Certificates from "@/components/certificates/Certificates";
 import { AnimatePresence } from "framer-motion";
