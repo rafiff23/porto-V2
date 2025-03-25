@@ -5,7 +5,7 @@ import ContactLink from "./ContactLink"
 import ContactTitle from "./ContactTitle"
 import ContactForm from "./ContactForm"
 import ContactRounded from "./ContactRounded"
-import Faq from "./Faq";
+// import Faq from "./Faq";
 
 
 export default function Contact() {
@@ -17,8 +17,8 @@ export default function Contact() {
       <ContactRounded />
       <div className="w-full overflow-hidden px-[5%]">
         <div className="contact-content relative flex min-h-[100svh] w-full flex-col items-center justify-between pt-12">
-        <ContactTitle title="FAQs" />
-          <Faq />
+        {/* <ContactTitle title="FAQs" /> */}
+          {/* <Faq /> */}
           <ContactTitle title="Contact" />
           <ContactForm />
           <div className="flex w-full justify-between py-12">
