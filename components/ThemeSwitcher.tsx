@@ -10,20 +10,23 @@ function ThemeSwitcher() {
 
   useEffect(() => {
     setMounted(true)
-  }, [])
+    if (!theme || theme === "system") {
+      setTheme("dark")
+    }
+  }, [setTheme, theme])
 
   if (!mounted) return null
 
   return (
-    <Tabs defaultValue={theme}>
+    <Tabs defaultValue={theme || "dark"}>
       <TabsList className="border dark:border-zinc-600 dark:bg-zinc-800">
-        <TabsTrigger value="light" onClick={(e) => setTheme("light")}>
+        <TabsTrigger value="light" onClick={() => setTheme("light")}>
           <SunIcon className="h-4 w-4" />
         </TabsTrigger>
-        <TabsTrigger value="dark" onClick={(e) => setTheme("dark")}>
+        <TabsTrigger value="dark" onClick={() => setTheme("dark")}>
           <MoonIcon className="h-4 w-4 rotate-90 transition-all dark:rotate-0" />
         </TabsTrigger>
-        <TabsTrigger value="system" onClick={(e) => setTheme("system")}>
+        <TabsTrigger value="system" onClick={() => setTheme("system")}>
           <Monitor className="h-4 w-4" />
         </TabsTrigger>
       </TabsList>

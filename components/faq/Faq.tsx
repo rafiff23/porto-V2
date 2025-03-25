@@ -72,7 +72,7 @@ export default function Faq() {
     <section
       id="faq"
       data-scroll-section
-      className="faq-section relative z-0 mt-24 flex min-h-screen w-full flex-col items-center justify-center overflow-x-clip bg-zinc-800 dark:bg-zinc-100 px-4"
+      className="faq-section relative z-0 mt-24 flex min-h-screen w-full flex-col items-center justify-center overflow-x-clip bg-zinc-900 dark:bg-zinc-200 px-4"
     >
       <ContactRounded />
       <ContactTitle title="FAQ" />

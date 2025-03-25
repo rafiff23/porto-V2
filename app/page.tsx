@@ -55,6 +55,7 @@ export default function Home() {
         <Certificates />
         <Projects />
         <FAQ />
+        <div className="w-full h-24 bg-zinc-900 dark:bg-zinc-100"></div>
         <Contact />
       </main>
     </>

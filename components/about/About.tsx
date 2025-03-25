@@ -72,8 +72,8 @@ export default function About() {
             />
           </div>
           <div className="flex flex-col text-sm sm:text-base">
-            <p className="text-white font-medium">{item.name}</p>
-            <span className="text-zinc-300 text-xs sm:text-sm block md:block">
+            <p className="text-zinc-800 dark:text-zinc-100 font-medium">{item.name}</p>
+            <span className="text-zinc-800 dark:text-zinc-400 text-xs sm:text-sm block md:block">
               {item.status}
             </span>
           </div>
@@ -95,14 +95,14 @@ export default function About() {
         <AboutGlobeAnimate />
       </div>
 
-      <div className="text-base sm:text-lg text-white leading-relaxed font-medium space-y-4 mb-10">
+      <div className="text-zinc-800 dark:text-zinc-200 sm:text-lg text-white leading-relaxed font-medium space-y-4 mb-10">
         <AnimateParagraph paragraph="Hey there! Hi, I'm Rafif, and I'm a 23-year-old data science explorer." delay={1.5} />
         <AnimateParagraph paragraph="I attended Binus University for my Bachelor of Computer Science and have since taken courses at Purwadhika and Algoritma Data Science School to hone my skills in data science and business intelligence." delay={1.8} />
         <AnimateParagraph paragraph="Strong abilities in data visualization, predictive analytics, modeling, and data-driven decision-making complement my proficiency in R, Python, SQL, and Excel." delay={2} />
         <AnimateParagraph paragraph="To further assist individuals and businesses in obtaining insightful data, I am highly skilled at developing interactive, user-friendly dashboards, improving data processing, and simplifying workflows." delay={2.5} />
       </div>
 
-      <div className="flex flex-wrap mb-6 space-x-4 border-b border-zinc-600 text-white text-sm sm:text-base">
+      <div className="flex flex-wrap mb-6 space-x-4 border-b border-zinc-600 text-zinc-800 dark:text-zinc-200 text-sm sm:text-base">
         <button
           onClick={() => setActiveTab("tech")}
           className={`px-4 py-2 rounded-t ${
