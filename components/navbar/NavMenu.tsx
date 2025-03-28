@@ -164,7 +164,7 @@ export default function NavMenu() {
                 active={active}
                 classes="pr-6"
                 duration={1.6}
-                link="https://ik.imagekit.io/fcuinpkmj/Resume_Rafif%20(1).pdf?updatedAt=1741938213015"
+                link="https://ik.imagekit.io/fcuinpkmj/Resume_Rafif.pdf?updatedAt=1743185464597"
               />
             </MagneticEffect>
             <MagneticEffect>
