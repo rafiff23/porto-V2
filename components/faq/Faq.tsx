@@ -52,7 +52,7 @@ const faqs = [
       <>
         You can view or download my resume from{" "}
         <a
-          href="https://ik.imagekit.io/fcuinpkmj/Resume_Rafif%20(1).pdf?updatedAt=1741938213015"
+          href="https://ik.imagekit.io/fcuinpkmj/Resume_Rafif.pdf?updatedAt=1743185464597"
           className="underline text-blue-600 hover:text-blue-800"
           target="_blank"
           rel="noopener noreferrer"
